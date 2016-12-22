@@ -19,7 +19,7 @@ Clean boiler plate app
 
 ## This solution
 
-Clean boiler plate app to start new projects
+Clean boiler plate app to start new project
 
 
 ## Installation
