@@ -1,6 +1,6 @@
 {
   "name": "my-boiler-plate-app",
-  "version": "0.0.0-development",
+  "version": "0.0.0-semantically-released",
   "description": "My boiler plate app",
   "main": "dist/index.js",
   "scripts": {
