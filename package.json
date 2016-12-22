@@ -26,7 +26,8 @@
     "saidur"
   ],
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "author": "Saidur Rahman <saidur2k@hotmail.com> (http://rudias.com/)",
   "license": "MIT",
@@ -39,8 +40,9 @@
     "babel-cli": "6.11.4",
     "babel-loader": "6.2.4",
     "babel-plugin-istanbul": "1.0.3",
+    "babel-plugin-transform-es2015-spread": "6.8.0",
     "babel-preset-es2015": "6.9.0",
-    "babel-register": "6.11.6",
+    "babel-register": "6.18.0",
     "chai": "3.5.0",
     "codecov": "1.0.1",
     "commitizen": "2.8.2",
@@ -51,7 +53,8 @@
     "eslint-plugin-promise": "3.4.0",
     "eslint-plugin-react": "6.8.0",
     "eslint-plugin-standard": "2.0.1",
-    "ghooks": "1.3.2",
+    "husky": "0.12.0",
+    "istanbul": "0.4.5",
     "json-loader": "0.5.4",
     "mocha": "3.0.0",
     "npm-run-all": "2.3.0",
@@ -65,11 +68,6 @@
   },
   "nyc": {
     "all": true,
-    "check-coverage": true,
-    "branches": 100,
-    "function": 100,
-    "lines": 100,
-    "statements": 100,
     "reporter": [
       "text",
       "lcov"
@@ -83,18 +81,7 @@
       "babel-register"
     ]
   },
-  "babel": {
-    "presets": [
-      "es2015"
-    ],
-    "env": {
-      "test": {
-        "plugins": [
-          "istanbul"
-        ]
-      }
-    }
-  },
+  "babel": {},
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"

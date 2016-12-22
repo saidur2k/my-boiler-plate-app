@@ -1,5 +1,5 @@
 import {expect} from 'chai'
-import mainExport from '.'
+import mainExport from './index'
 
 describe('my-boiler-plate-app', () => {
   it('works', () => {
