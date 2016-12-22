@@ -81,7 +81,6 @@
       "babel-register"
     ]
   },
-  "babel": {},
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
