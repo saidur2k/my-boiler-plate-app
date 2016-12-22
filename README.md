@@ -34,8 +34,8 @@ npm install --save my-boiler-plate-app
 Alternatively you can get the [UMD][umd] build which is also published to the npm
 registry and is therefore available via [npmcdn.com][npmcdn]:
 
-- [https://npmcdn.com/my-boiler-plate-app@1.6.0/dist/index.umd.js][npmcdn-link]
-- [https://npmcdn.com/my-boiler-plate-app@1.6.0/dist/index.umd.min.js][npmcdn-min-link]
+- [https://npmcdn.com/my-boiler-plate-app@1.0.0/dist/index.umd.js][npmcdn-link]
+- [https://npmcdn.com/my-boiler-plate-app@1.0.0/dist/index.umd.min.js][npmcdn-min-link]
 
 The UMD build exposes the module as a global called `my-boiler-plate-app` or as an unnamed
 module for AMD/CommonJS (require it by its file path)
