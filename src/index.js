@@ -1,10 +1,9 @@
 
 const mainExport = {
-  itworks: function() {
+  itworks: function () {
     return true
   }
 }
-
 
 export default mainExport
 module.exports = mainExport // for CommonJS compatibility

@@ -8,13 +8,13 @@ export default {
   output: {
     path: join(__dirname, 'dist'),
     libraryTarget: 'umd',
-    library: 'my-boiler-plate-app',
+    library: 'my-boiler-plate-app'
   },
   devtool: 'source-map',
   module: {
     loaders: [
       {test: /\.js$/, loaders: ['babel'], include: context},
-      {test: /\.json$/, loaders: ['json'], include: context},
-    ],
-  },
+      {test: /\.json$/, loaders: ['json'], include: context}
+    ]
+  }
 }
