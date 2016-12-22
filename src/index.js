@@ -2,7 +2,6 @@
 const mainExport = {
   itworks: function() {
     return true
-  }
 }
 
 export default mainExport
