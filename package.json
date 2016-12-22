@@ -12,7 +12,7 @@
     "build:umd.min": "webpack --output-filename index.umd.min.js -p",
     "test": "cross-env NODE_ENV=test nyc mocha",
     "watch:test": "mocha --watch",
-    "lint": "standard",
+    "lint": "standard --verbose | snazzy",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "release": "semantic-release pre && npm publish && semantic-release post",
     "validate": "npm-run-all --parallel test lint build"
@@ -62,6 +62,7 @@
     "opt-cli": "1.5.1",
     "rimraf": "2.5.4",
     "semantic-release": "4.3.5",
+    "snazzy": "5.0.0",
     "standard": "8.6.0",
     "validate-commit-msg": "2.6.1",
     "webpack": "1.13.1"
