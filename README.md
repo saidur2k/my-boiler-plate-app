@@ -43,7 +43,7 @@ module for AMD/CommonJS (require it by its file path)
 ## Usage
 
 ```javascript
-const starWarsNames = require('my-boiler-plate-app') // CommonJS
+const (my-boiler-plate-app = require('my-boiler-plate-app') // CommonJS
 console.log(my-boiler-plate-app.works) // true
 ```
 
